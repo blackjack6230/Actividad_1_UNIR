@@ -1,7 +1,59 @@
-div#nav{
-    text-align: center;
-  }
-  div#nav ul{
-    display: inline-block;
-  }
-  
+body {
+  background-color: #ffffff;
+  font-family: helvetica;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+}
+.parrafo_centrado{
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(54, 54, 54);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  height: 7%;
+  width: 7%;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(17, 17, 17);
+}
+
+.active {
+  background-color: #04AA6D;
+}
