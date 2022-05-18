@@ -1,6 +1,7 @@
 body {
   background-color: #fff;
   font-family: helvetica;
+  text-align: center;
 }
 
 .box {
@@ -47,5 +48,9 @@ a {
 }
 
 .vacio {
-width: 50px;
+  width:10%;
+}
+
+.tabla_contenido{
+  width: 100%;
 }
