@@ -6,9 +6,7 @@ body {
 h1 {
   color: #000000;
   text-align: center;
-  text-align: center;
   font-size: 40px;
-
 }
 
 p {
@@ -19,41 +17,29 @@ a {
   font-size: 18px;
   text-decoration: none;
 }
-.parrafo_centrado{
+
+.parrafo_justificado{
   text-align: justify;
+  width: 550px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(54, 54, 54);
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
+.parrafo_centrado{
   text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
+  width: 1000px;
 }
 
-.icon{
-  height: 7%;
-  width: 7%;
+.vacio {
+width: 50px;
 }
 
-li a:hover:not(.active) {
-  background-color: rgb(17, 17, 17);
+.box {
+  border: 2px solid #9aa3a2;
+  border-radius: 8px;
+  background-color: solid #9aa3a2;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-.active {
-  background-color: #04AA6D;
+home:hover {
+  background-color: solid #11b4a1;
 }
