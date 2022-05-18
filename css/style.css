@@ -1,12 +1,30 @@
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: helvetica;
+}
+
+.box {
+  border: 2px solid #9aa3a2;
+  border-radius: 8px;
+  background-color: solid #9aa3a2;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+box:hover {
+  background-color: solid #11b4a1;
 }
 
 h1 {
   color: #000000;
   text-align: center;
   font-size: 40px;
+}
+
+h2 {
+  color: #5c6160;
+  font-size: 30px;
+  text-align: center;
 }
 
 p {
@@ -30,16 +48,4 @@ a {
 
 .vacio {
 width: 50px;
-}
-
-.box {
-  border: 2px solid #9aa3a2;
-  border-radius: 8px;
-  background-color: solid #9aa3a2;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-home:hover {
-  background-color: solid #11b4a1;
 }
